@@ -1,10 +1,16 @@
 # Sample 1: Employee Leaves Management System APIs
 This is a sample project that focuses on building a backend APIs application using Laravel framework.
+
 The application is an implementation of Kuwaiti Labor law in the part related to employee leaves, explained below (the application business logic).
+
 The application is developed using Repository Pattern to separate the business logic and data access logic and locate them into repositories and to keep code as dry as possible.
+
 The application mainly 	allows employees to check their different leave types balances, apply for different leave types, and allow their direct managers to accept or reject these leaves.
+
 The application also has some basic functionality like: user registration, login, reset password, etc.
+
 It is hosted in AWS EC2 instance, connected to a AWS RDS MySQL database, and utilizing some other AWS services like S3 and SQS.
+
 Please feel free to contact me (sameh74@gmail.com) to share with you the related postman collection if needed.
 
 ## What are the frameworks, tools, technologies, approaches, and infrastructure demonstrated in this project?
@@ -61,7 +67,7 @@ All Leave related transactions are logged and all Employee related transactions 
 * Allowed in the case of the death of relatives from the first-degree only.
 * Requires a genuine death certificate.
 ### Haj Leave
-* 5 Days
+* (5 Days)
 * It is fully paid
 * Allowed for 1 time only during service.
 * Requires confirmed Haj Travel Tickets (and visa if applicable).
